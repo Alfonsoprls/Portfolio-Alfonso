@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio personal de Alfonso Bercedo Núñez, desarrollador de aplicaciones multiplataforma y entusiasta del desarrollo web.">
+  <meta name="author" content="Alfonso Bercedo Núñez">
+  <meta name="keywords" content="desarrollador, portfolio, Java, HTML, CSS, aplicaciones multiplataforma, Alfonso Bercedo">
+  <title>Alfonso Bercedo — Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <nav>
+      <span class="nav-logo">AB</span>
+      <ul class="nav-links">
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#portfolio">Proyectos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-content">
+        <p class="hero-eyebrow">Desarrollador · Formador · Creador</p>
+        <h1>Alfonso<br>Bercedo<br>Núñez</h1>
+        <p class="hero-desc">Estudiante de Desarrollo de Aplicaciones Multiplataforma. Construyo cosas para la web y las personas.</p>
+        <a href="#portfolio" class="btn-primary">Ver proyectos</a>
+      </div>
+      <div class="hero-blob" aria-hidden="true"></div>
+    </section>
+
+    <!-- SOBRE MÍ -->
+    <section id="sobre-mi">
+      <div class="section-inner">
+        <h2>Sobre mí</h2>
+        <div class="about-grid">
+          <div class="about-text">
+            <p>Soy una persona trabajadora, organizada y responsable. Tengo experiencia como desarrollador de aplicaciones multiplataforma y en el área de la educación y formación, lo que me ha permitido desarrollar habilidades en planificación, análisis, resolución de problemas y trabajo en equipo.</p>
+            <p>Me adapto con facilidad a nuevos entornos y tengo un enfoque orientado a la mejora continua y al aprendizaje constante.</p>
+          </div>
+          <div class="about-skills">
+            <h3>Habilidades técnicas</h3>
+            <ul class="skill-list">
+              <li>Programación en Java</li>
+              <li>Desarrollo web con HTML</li>
+              <li>Dominio de CSS</li>
+              <li>Gestión de bases de datos SQL</li>
+              <li>Control de versiones Git / GitHub</li>
+              <li>Gestión de redes sociales</li>
+            </ul>
+            <h3>Idiomas</h3>
+            <ul class="skill-list">
+              <li>Español — Nativo</li>
+              <li>Inglés — Avanzado</li>
+              <li>Francés — Básico</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PORTFOLIO -->
+    <section id="portfolio">
+      <div class="section-inner">
+        <h2>Proyectos</h2>
+        <div class="projects-grid">
+
+          <article class="project-card">
+            <div class="project-tag">Chatbot · Automatización</div>
+            <h3>Chatbot para Peluquería</h3>
+            <p>Sistema de citas automatizado para peluquerías mediante un chatbot inteligente. Gestiona reservas, confirmaciones y cancelaciones sin intervención humana.</p>
+            <div class="project-tech">
+              <span>Java</span>
+              <span>Automatización</span>
+            </div>
+          </article>
+
+          <article class="project-card project-card--featured">
+            <div class="project-tag">Web · Evento</div>
+            <h3>PU7O PERREO</h3>
+            <p>Página web que simula el sitio oficial de un festival de música urbana. Diseño inmersivo con cartel de artistas, información de entradas y experiencia visual de evento.</p>
+            <div class="project-tech">
+              <span>HTML</span>
+              <span>CSS</span>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-tag">Web · Portfolio</div>
+            <h3>Portfolio Personal</h3>
+            <p>Este mismo sitio. Desarrollado con HTML semántico y CSS puro como proyecto del Grado Superior de DAM. Diseño responsive con dark mode, Flexbox y Grid.</p>
+            <div class="project-tech">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>Grid</span>
+              <span>Flexbox</span>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-tag">App · Java</div>
+            <h3>Gestión de Habitaciones de Hotel</h3>
+            <p>Aplicación para consultar el listado de habitaciones de un hotel y gestionar su disponibilidad. Permite visualizar el estado de cada habitación y controlar ocupación y reservas.</p>
+            <div class="project-tech">
+              <span>Java</span>
+              <span>CLI</span>
+              <span>Gestión de datos</span>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto">
+      <div class="section-inner">
+        <h2>Contacto</h2>
+        <div class="contact-layout">
+          <div class="contact-info">
+            <p>¿Tienes un proyecto en mente o quieres ponerte en contacto? Escríbeme.</p>
+            <ul class="contact-links">
+              <li><span class="contact-label">Email</span><a href="mailto:alfonsobenzz7@gmail.com">alfonsobenzz7@gmail.com</a></li>
+              <li><span class="contact-label">Teléfono</span><a href="tel:+34610219322">610 21 93 22</a></li>
+              <li><span class="contact-label">LinkedIn</span><a href="https://www.linkedin.com/in/alfonso-bercedo-núñez-b03240350" target="_blank" rel="noopener">alfonso-bercedo-núñez</a></li>
+            </ul>
+          </div>
+          <form class="contact-form" novalidate>
+            <div class="form-group">
+              <label for="nombre">Nombre</label>
+              <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" autocomplete="name">
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="tu@email.com" autocomplete="email">
+            </div>
+            <div class="form-group">
+              <label for="mensaje">Mensaje</label>
+              <textarea id="mensaje" name="mensaje" rows="5" placeholder="Cuéntame en qué puedo ayudarte..."></textarea>
+            </div>
+            <button type="submit" class="btn-primary">Enviar mensaje</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-inner">
+      <p class="footer-copy">&copy; 2026 Alfonso Bercedo Núñez. Todos los derechos reservados.</p>
+      <div class="footer-social">
+        <a href="https://www.linkedin.com/in/alfonso-bercedo-núñez-b03240350" target="_blank" rel="noopener" aria-label="LinkedIn de Alfonso">LinkedIn</a>
+        <a href="mailto:alfonsobenzz7@gmail.com" aria-label="Email de Alfonso">Email</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
